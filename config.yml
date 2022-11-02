@@ -1,0 +1,56 @@
+CHECK_IN_DATE:
+CHECK_OUT_DATE:
+
+ITEMS:
+
+
+
+url: "https://www.airbnb.com/api/v3/ExploreSections"
+
+headers: {
+    "cookie": "bev=1637086241_NTdhODQ1MjNlYjMx; fbm_138566025676=base_domain=.airbnb.com; _aat=0%7CL%2BlOuUYKVXgA%2F1FD3iDx6gcM1KMqpLNS1AbmZX74SKuPBgGb7ZahZXZNWT18jB3n; abb_fa2=%7B%22user_id%22%3A%2259%7C1%7C7JrKTWSrLbIaYBXIemZFKxn3UODcGUYbTZ3OGlb6hbEM7X9KC28j%2FA%3D%3D%22%7D; _airbed_session_id=dabb625a8df20ca4c19d61c64d6836f9; _pt=1--WyI2OGU3YzMxMzUzYzBkODI5Njc3ZDA2NGFjM2FkNGY2ZmE4NjIzMWI0Il0%3D--9a1872865f8369a87f84c8d817d1f7f94b021831; hli=1; tzo=-360; cdn_exp_d92fdc77c0b0762c0=control; cdn_exp_29e65ed560e5fd9f1=treatment; cdn_exp_255f380963191f229=control; _gcl_au=1.1.1273041648.1658970506; _abck=6C3DAAB2DF787BDFFE81150FAD8C2AC8~-1~YAAQRwwwF/PMyFyCAQAAj8fingiivEhTihftQ4hZrQiu7zO5Xo/zrZ+tW0Dmc+VSvFB1XA7yUJZ2XgMdsikMNY5DFHdLhoJz555pAfGsknHqP0oYWMTk7bBpDG7GC4lpz1jYSAhOTMuS5iJtz83ojwkoNHb88ki3aLyY4f33omj55CPMoGU5j3wfhkzVAqy8wOMmJyli0e6EvMK2RNsZLc3hZCSgIM1ZwFs4RLZHe3vLFo6RZov80pOuGx9BAJzxgun/I5jIg1+GaPSQmB8VnAOV3DIi8HIIso6DVt/S+hf3ANeB/xerNZ0zzk4DCKEzIIEBso8eEikmdY5KK6gOizx0E0Yx6MJDqg4kWl8BPkNFvM1bdhjdCRxDzxIq6w3apF9kxbe/L5AXPg==~-1~-1~-1; country=US; cdn_exp_b910f64ca3b409af4=treatment; cdn_exp_edca6a5ab9666c814=treatment; cdn_exp_7b27e8582f6ea5b25=control; cdn_exp_fea7ec9bd22598e31=control; cdn_exp_664025b35de9ca5f8=treatment; ak_bmsc=2A1E8F0D6789C706C8A0069E67738D4F~000000000000000000000000000000~YAAQHAswF7CCn/WCAQAA/eEmDhGV/jlczTqmXRYM2xNITnBN8M3jrWIdiyM0PM7QuZ09ZbGCSQpfU1Xx8hYFF8r4+vCfHmxtt/HkITex7s9X1yGkw/Bvf76ttgyIkfGAhfCrSfdaxsevVDvnw1ZkknHp65GUXOBNkaVY/tHIdSq8yNnzyjGk426Bk25s14XKx8Ed1kN2PG8toFix+jNKXiLVtBIEEfbtrZjGhH6xcfnpEJrbRFsHDSzizae6Dn6qnYmzqTdrfL0R1Ynmi8tO9EfJXZ7dYnTRmWrFzMBswmjNe//m0OMVBqBPhgn4eEif5Ik3nIb8SBFaAxe2BRqYwrat8jzTggUWTv3EVP+qyLl1hgYnqc753dN6vuiZKGYFWVZOwIbw4q8brZY=; OptanonAlertBoxClosed=NR; _gid=GA1.2.1624790725.1662389773; everest_cookie=1662389773.a9dQoSp3GwRFEIPIUTEV.etr4rQT8HRnb963ftdjh64RE_631j7fr-nSDdRw1nWY; _csrf_token=V4%24.airbnb.com%24PCXvdHlX_Ik%24hTZcKKEPmgjcjlBLlnDdJEHCognqKfDwY823A0bi7Hk%3D; flags=8448; roles=0; cfrmfctr=MOBILE; cbkp=1; frmfctr=compact; _user_attributes=%7B%22curr%22%3A%22USD%22%2C%22guest_exchange%22%3A1.0%2C%22device_profiling_session_id%22%3A%221637086305--09e19f42639f771641852cca%22%2C%22giftcard_profiling_session_id%22%3A%221662389772-48198792-5c89498cf1c90de3d8d0cddb%22%2C%22reservation_profiling_session_id%22%3A%221662389772-48198792-afc9401dfd10cf0a4f496a01%22%2C%22id%22%3A48198792%2C%22hash_user_id%22%3A%2268e7c31353c0d829677d064ac3ad4f6fa86231b4%22%2C%22eid%22%3A%22EPcnGo97foY7LTA80g2CIA%3D%3D%22%2C%22num_h%22%3A0%2C%22num_trip_notif%22%3A0%2C%22name%22%3A%22Jake%22%2C%22num_action%22%3A0%2C%22is_admin%22%3Afalse%2C%22can_access_photography%22%3Afalse%2C%22travel_credit_status%22%3Anull%2C%22referrals_info%22%3A%7B%22receiver_max_savings%22%3Anull%2C%22receiver_savings_percent%22%3Anull%2C%22receiver_signup%22%3Anull%2C%22referrer_guest%22%3A%22%2420%22%2C%22terms_and_conditions_link%22%3A%22%2Fhelp%2Farticle%2F2269%22%2C%22wechat_link%22%3Anull%2C%22offer_discount_type%22%3Anull%7D%7D; _ga=GA1.1.2084844690.1637086321; _uetsid=e2ecdf402d2a11ed93d82fecc445fb01; _uetvid=b3201220470811eca0f6d9520d1dcb0d; previousTab=%7B%22id%22%3A%22bca0b22c-7838-4ab6-bd11-18dc3b3076ee%22%2C%22url%22%3A%22https%3A%2F%2Fwww.airbnb.com%2Fs%2FJefferson--Colorado--United-States%2Fhomes%3Fplace_id%3DChIJW8vuDrriaocRRu1CVaEuuW8%26checkin%3D2022-10-02%26checkout%3D2022-10-03%26date_picker_type%3Dcalendar%26adults%3D2%26search_type%3Dunknown%26tab_id%3Dhome_tab%26query%3DJefferson%252C%2520Colorado%252C%2520United%2520States%26flexible_trip_lengths%255B%255D%3Done_week%26price_filter_num_nights%3D1%26refinement_paths%255B%255D%3D%252Fhomes%26federated_search_session_id%3D85b528f4-8e63-4b2c-a35a-ebba07489c1d%26pagination_search%3Dtrue%26items_offset%3D20%26section_offset%3D2%22%7D; jitney_client_session_id=d616b23c-8900-45c4-beb7-5d3f812a9f71; jitney_client_session_created_at=1662393720; jitney_client_session_updated_at=1662393757; _ga_2P6Q8PGG16=GS1.1.1662393721.12.1.1662393757.24.0.0; bm_sv=946FACC44FCC565F5B6788E0200191F2~YAAQNQswF9lv+vKCAQAAhQlkDhEJilEpVsgEPK4TdZRmSVPa1WHPEYK3KmPMsOjWKFwi2bptoMKHgJLuBjregcrTtNyS28/kQYExaj7NQQl79Zl1lQxJBeeJ90cuhVrGG8NThtzRne1hyxZuASti6L5vazmLEXl1DGJjMoJGx5xgnCjQSWbAsU/oWp7uoA28vCIvb3nZvj2hXSzJfxX83h5Zue7E5OuhoD31K4NkCn3zbCPxKGS38ZZZtzfgZ5BHyg==~1",
+    "authority": "www.airbnb.com",
+    "accept": "*/*",
+    "accept-language": "en-US,en;q=0.9",
+    "content-type": "application/json",
+    "device-memory": "8",
+    "dpr": "2",
+    "ect": "4g",
+    "referer": "https://www.airbnb.com/s/Jefferson--Colorado--United-States/homes?refinement_paths%5B%5D=%2Fhomes&checkin=2022-10-19&checkout=2022-10-21&date_picker_type=calendar&adults=2&search_type=AUTOSUGGEST&tab_id=home_tab&query=Jefferson%2C%20Colorado%2C%20United%20States&flexible_trip_lengths%5B%5D=one_week&price_filter_num_nights=2&federated_search_session_id=670b592f-0096-43c5-a728-2d582649af4a&pagination_search=true&items_offset=20&section_offset=2",
+    "sec-ch-ua":  '"Not A;Brand";v="99", "Chromium";v="102", "Google Chrome";v="102"',
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": 'macOS"',
+    "sec-fetch-dest": "empty",
+    "sec-fetch-mode": "cors",
+    "sec-fetch-site": "same-origin",
+    "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.61 Safari/537.36",
+    "viewport-width": "397",
+    "x-airbnb-api-key": "d306zoyjsyarp7ifhu67rjxn52tv0t20",
+    "x-airbnb-graphql-platform": "web",
+    "x-airbnb-graphql-platform-client": "minimalist-niobe",
+    "x-airbnb-supports-airlock-v2": "true",
+    "x-client-request-id": "12akks31s2cbk81dd94380lej8ir",
+    "x-csrf-token": "V4$.airbnb.com$PCXvdHlX_Ik$hTZcKKEPmgjcjlBLlnDdJEHCognqKfDwY823A0bi7Hk=",
+    "x-csrf-without-token": "1",
+    "x-niobe-short-circuited": "true"
+}
+
+
+relevant_columns:
+  - name
+  - distanceFromTarryallCabin
+  - avgRating
+  - reviewsCount
+  - isNewListing
+  - isSuperhost
+  - amenities
+  - structuredStayDisplayPrice.primaryLine.accessibilityLabel
+  - costBreakdown
+  - title
+  - personCapacity
+  - availableBeds
+  - start_date
+  - timeBooked
+  - distanceFromTarryallCabin_w
+  
+
